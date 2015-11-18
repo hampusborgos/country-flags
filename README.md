@@ -3,6 +3,9 @@ country-flags
 
 This repository contains renders of all the worlds flags in PNG format.
 
+There are also SVG versions of some flags. If anyone is willing to contribute
+the rest (available from Wikimedia Commons), please send a pull request.
+
 The source files were taken from Wikipedia and are not under copyright
 protection since flags are effectively in public domain (there may be other
 restrictions on how the flag can be used though).
