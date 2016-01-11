@@ -1,31 +1,61 @@
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<title>All country flags in SVG</title>
 
 		<style>
-		.flags {
+		h1 {
+			margin: 10px;
+		}
+
+		p,
+		tt {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		tt {
+			background-color: #333;
+			color: white;
+			padding: 10px;
+		}
+
+		#flags {
 			display: flex;
+			flex-wrap: wrap;
 		}
 
 		.flag {
 			width: 200px;
 			height: 200px;
+			background-color: #e8e8e8;
+			padding: 10px;
+			margin: 10px;
+			display: flex;
+			justify-content: space-between;
+			flex-direction: column;
 		}
 
 		.flag img {
+			width: 100%;
 			
 		}
 
 		.flag figcaption {
+			text-align: center;
 
 		}
 		</style>
 	</head>
 	<body>
 		<h1>All country flags in SVG</h1>
-		<div class="flags">
+		<p>All countries flags available as PNG and SVG.</p>
+		<p>Easiest way to get them is to clone the git repository:</p>
+		<tt>git clone git@github.com:hjnilsson/country-flags.git</tt>
+		<p>Or go to the <a href="https://github.com/hjnilsson/country-flags">Github page</a> to read more</p>
+		<div id="flags">
 			<figure class="flag">
-				<img src="https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/ad.svg">
+				<img src="https://rawgit.com/hjnilsson/country-flags/master/svg/ad.svg">
 				<figcaption>
 					Andorra
 				</figcaption>
@@ -34,5 +64,33 @@
 	</body>
 
 	<script type="text/javascript">
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (xhttp.readyState == 4 && xhttp.status == 200) {
+				countriesLoaded(JSON.parse(xhttp.responseText));
+			}
+		};
+		xhttp.open("GET", "countries.json", true);
+		xhttp.send()
+
+		// Do stuff when we got the list of all countries
+		function renderCountry(code, country) {
+			return (
+				'<figure class="flag">' +
+					'<img src="https://rawgit.com/hjnilsson/country-flags/master/svg/' + code.toLowerCase() + '.svg">' +
+					'<figcaption>' +
+					country +
+					'</figcaption>' +
+				'</figure>'
+			);
+		}
+
+		function countriesLoaded(countries) {
+			var flagsHtml = '';
+			for (var code in countries) {
+				flagsHtml += renderCountry(code, countries[code]) + '\n';
+			}
+			document.getElementById('flags').innerHTML = flagsHtml;
+		}
 	</script>
 </html>
