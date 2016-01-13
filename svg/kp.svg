@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="600" viewBox="-36 -24 72 48">
-<title>Flag of South Korea</title>
-<rect fill="#fff" x="-36" y="-24" width="72" height="48"/>
-<g transform="rotate(-56.3099325)"><!--arctan(-3/2)-->
-<g id="b2"><path id="b" d="M-6-25H6M-6-22H6M-6-19H6" stroke="#000" stroke-width="2"/>
-<use xlink:href="#b" y="44"/></g>
-<path stroke="#fff" stroke-width="1" d="M0,17v10"/>
-<circle fill="#c60c30" r="12"/>
-<path fill="#003478" d="M0-12A6,6 0 0 0 0,0A6,6 0 0 1 0,12A12,12 0 0,1 0-12Z"/></g>
-<g transform="rotate(-123.6900675)"><use xlink:href="#b2"/>
-<path stroke="#fff" stroke-width="1" d="M0-23.5v3M0,17v3.5M0,23.5v3"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="800" viewBox="0 0 72 36">
+<rect fill="#024FA2" width="72" height="36"/>
+<rect fill="#fff" y="6" width="72" height="24"/>
+<rect fill="#ED1C27" y="7" width="72" height="22"/>    
+<circle fill="#fff" cx="24" cy="18" r="8"/>
+<g id="star" transform="translate(24,18) scale(7.75)" fill="#ED1C27">
+<g id="cone">
+<polygon id="triangle" points="0,0 0,1 .5,1" transform="translate(0,-1) rotate(18)"/><use xlink:href="#triangle" transform="scale(-1,1)" id="use12"/>
+</g>
+<use xlink:href="#cone" transform="rotate(72)" id="use14"/>
+<use xlink:href="#cone" transform="rotate(-72)" id="use16"/>
+<use xlink:href="#cone" transform="rotate(144)" id="use18"/>
+<use xlink:href="#cone" transform="rotate(-144)" id="use20"/>
+</g>
+</svg>
