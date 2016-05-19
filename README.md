@@ -18,12 +18,14 @@ Arbitrary Width
 ===============
 
 If you would like the flags in a different width than 250px, you can easily
-use a combination of `svgexport` and `imagemin` from NPM to get that.
+use a combination of `svgexport` and `imagemin-cli` from NPM to get that.
 
-Run the following commands to PNGs of a desired width:
+Run the following commands in the `svg/` directory to get PNGs of a desired width:
 
+    npm install -g svgexport imagemin-cli
     for file in *.svg; do svgexport $file "`basename $file svg`png" pad 1000: ; done
     imagemin *.png ../compressed-pngs/
     rm *.png
 
-Replace `1000:` with whatever width you want (note the `:`)
+Replace `1000:` with whatever width you want (note the `:`), or type `:200` to get
+PNGs with a height of 200px.
