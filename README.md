@@ -14,6 +14,10 @@ The flags are named by their 2-letter ISO country code.
 Also included is a JSON file that maps the ISO country code to the name of the
 country.
 
+You can also install this as a NPM module:
+
+    npm install --save svg-country-flags
+
 Arbitrary Width
 ===============
 
