@@ -28,7 +28,7 @@ Run the following commands in the `svg/` directory to get PNGs of a desired widt
 
     npm install -g svgexport imagemin-cli
     for file in *.svg; do svgexport $file "`basename $file svg`png" pad 1000: ; done
-    imagemin *.png ../compressed-pngs/
+    imagemin *.png --out-dir=../compressed-pngs/
     rm *.png
 
 Replace `1000:` with whatever width you want (note the `:`), or type `:200` to get
