@@ -1,0 +1,24 @@
+{
+  "name": "svg-country-flags",
+  "version": "1.0.0",
+  "description": "SVG and PNG renders of all countries' flags.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjnilsson/country-flags.git"
+  },
+  "keywords": [
+    "flags",
+    "countries",
+    "country",
+    "svg"
+  ],
+  "author": "Hampus Nilsson",
+  "license": "SAX-PD",
+  "bugs": {
+    "url": "https://github.com/hjnilsson/country-flags/issues"
+  },
+  "homepage": "http://hjnilsson.github.io/country-flags/"
+}

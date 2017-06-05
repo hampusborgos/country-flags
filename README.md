@@ -15,6 +15,10 @@ the flag of Kosovo named `Kosovo.svg`. Kosovo does not yet have a ISO country co
 Also included is a JSON file that maps the ISO country code to the name of the
 country.
 
+You can also install this as a NPM module:
+
+    npm install --save svg-country-flags
+
 Arbitrary Width
 ===============
 
@@ -25,7 +29,7 @@ Run the following commands in the `svg/` directory to get PNGs of a desired widt
 
     npm install -g svgexport imagemin-cli
     for file in *.svg; do svgexport $file "`basename $file svg`png" pad 1000: ; done
-    imagemin *.png ../compressed-pngs/
+    imagemin *.png --out-dir=../compressed-pngs/
     rm *.png
 
 Replace `1000:` with whatever width you want (note the `:`), or type `:200` to get
