@@ -9,7 +9,8 @@ The source files were taken from Wikipedia and are not under copyright
 protection since flags are effectively in public domain (there may be other
 restrictions on how the flag can be used though).
 
-The flags are named by their 2-letter ISO country code.
+The flags are named by their 2-letter ISO-3166 country code. Also included is
+the flag of Kosovo named `Kosovo.svg`. Kosovo does not yet have a ISO country code.
 
 Also included is a JSON file that maps the ISO country code to the name of the
 country.
