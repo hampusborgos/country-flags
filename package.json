@@ -1,6 +1,6 @@
 {
   "name": "svg-country-flags",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "SVG and PNG renders of all countries' flags.",
   "scripts": {
     "build-pngs": "node scripts/build-pngs.js",
