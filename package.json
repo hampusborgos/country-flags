@@ -3,7 +3,8 @@
   "version": "1.1.0",
   "description": "SVG and PNG renders of all countries' flags.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-pngs": "node scripts/build-pngs.js",
+    "build-100-250-1000-pngs": "node scripts/build-pngs.js 100: && node scripts/build-pngs.js 250: && node scripts/build-pngs.js 1000:"
   },
   "repository": {
     "type": "git",

@@ -23,15 +23,27 @@ You can also install this as a NPM module:
 Arbitrary Width
 ===============
 
-If you would like the flags in a different width than 250px, you can easily
-use a combination of `svgexport` and `imagemin-cli` from NPM to get that.
+If you would like the flags in a different width than 100px, 250px or 1000px,
+you can run the node script 'build-pngs', you must first install the modules `svgexport` and `imagemin-cli`:
+
+    npm install -g svgexport imagemin-cli
+    npm run build-pngs -- 1000:
+
+Replace `1000:` with whatever width you want (note the `:`), or type `:200` to get
+PNGs with a height of 200px.
+
+Arbitrary Width Manually
+========================
+
+If you cannot run the node script above, you can do the same steps manually.
+
+Use a combination of `svgexport` and `imagemin-cli` from NPM to get that.
+`imagemin` is very important because `svgexport` produces uncompressed PNGs which are several MB each.
 
 Run the following commands in the `svg/` directory to get PNGs of a desired width:
 
-    npm install -g svgexport imagemin-cli
     for file in *.svg; do svgexport $file "`basename $file svg`png" pad 1000: ; done
     imagemin *.png --out-dir=../compressed-pngs/
     rm *.png
 
-Replace `1000:` with whatever width you want (note the `:`), or type `:200` to get
-PNGs with a height of 200px.
+The resultant files will be in the `compressed-pngs` folder. As before, `1000:` is the dimensions to export.
