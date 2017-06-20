@@ -53,6 +53,7 @@
 		<p>Easiest way to get them is to clone the git repository:</p>
 		<tt>git clone git@github.com:hjnilsson/country-flags.git</tt>
 		<p>Or go to the <a href="https://github.com/hjnilsson/country-flags">Github page</a> to read more</p>
+		<p>Kosovo is not listed in this overview as it does not have an ISO-3166 code, but is present in the repository.</p>
 		<div id="flags">
 			<figure class="flag">
 				<img src="https://rawgit.com/hjnilsson/country-flags/master/svg/ad.svg">
@@ -78,7 +79,7 @@
 		function renderCountry(code, country) {
 			return (
 				'<figure class="flag">' +
-					'<img src="https://rawgit.com/hjnilsson/country-flags/master/svg/' + code.toLowerCase() + '.svg">' +
+					'<img src="https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/' + code.toLowerCase() + '.svg">' +
 					'<figcaption>' +
 					country +
 					'</figcaption>' +
