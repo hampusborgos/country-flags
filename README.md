@@ -11,7 +11,8 @@ restrictions on how the flag can be used though).
 
 The flags are named by their 2-letter ISO-3166 country code, except for the
 constituent countries of Great Britain which have 6-letter codes "GB-ENG" etc).
-Also included is the flag of Kosovo named `Kosovo.svg`. Kosovo does not yet have a ISO country code.
+
+Kosovo uses the user-assigned country code `XK`, which is not part of the ISO standard, but in use by several multinational organizations.
 
 Also included is a JSON file that maps the ISO country code to the name of the
 country.
