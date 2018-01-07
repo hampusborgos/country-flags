@@ -3,7 +3,7 @@ var exec = require('child_process').exec
 var fs = require('fs')
 
 var help_message = "You must pass one argument to build-pngs. It should be dimension of the resultant image in the format 200: for width 200px, or :200 for height 200px."
-var svg_directory = 'svg/';
+var svg_directory = 'svg/'
 
 // Check arguments
 function get_output_directory() {
@@ -11,7 +11,7 @@ function get_output_directory() {
 }
 
 function get_output_dimensions() {
-    return process.argv[2];
+    return process.argv[2]
 }
 
 function check_arguments(callback) {
@@ -69,9 +69,9 @@ function get_all_svgs(callback) {
             process.exit(1)
         }
 
-        items = items.filter(path => /^[a-z\-]+\.svg$/.test(path));
-        callback(items);
-    });
+        items = items.filter(path => /^[a-z\-]+\.svg$/.test(path))
+        callback(items)
+    }, (error) => {})
 }
 
 function convert_and_compress_svg(path_to_svg, callback) {
@@ -84,38 +84,41 @@ function convert_and_compress_svg(path_to_svg, callback) {
 
         exec("imagemin " + path_to_tmp_png + " --out-dir=" + get_output_directory(), (error, stdout, stderr) => {
             // Always remove temp file
-            fs.unlink(path_to_tmp_png);
+            fs.unlink(path_to_tmp_png, (error) => {})
 
             if (error) {
                 console.log("Failed to convert SVG: " + path_to_svg)
                 process.exit(1)
             }
 
-            callback();
+            callback()
         })
     })
 }
 
 function convert_all_files(svgs, callback) {
-    var i = 0;
+    var i = 0
 
     function do_next_file() {
         console.log("Converting [" + (i+1) + "/" + svgs.length + "] " + svgs[i])
         convert_and_compress_svg(svg_directory + svgs[i], do_next_file)
 
-        ++i;
+        ++i
         if (i >= svgs.length) {
-            callback();
+            callback()
+            return
         }
     }
 
-    do_next_file();
+    do_next_file()
 }
 
 // Run the program
 check_arguments(() =>
     check_for_imagemin(() =>
     check_for_svgexport(() =>
-    get_all_svgs((svgs) => convert_all_files(svgs, () =>
-    console.log("All SVGs converted to PNG!"))
+    get_all_svgs((svgs) => convert_all_files(svgs, () => {
+        console.log("All SVGs converted to PNG!")
+        process.exit(0)
+    })
 ))))
