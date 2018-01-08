@@ -1,0 +1,108 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/han/Projects/country-flags',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/han/.npm/svg-country-flags/1.2.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/han/.npm correctMkdir not in flight; initializing
+10 info lifecycle svg-country-flags@1.2.0~prepublish: svg-country-flags@1.2.0
+11 silly lifecycle svg-country-flags@1.2.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/han/.npm/svg-country-flags/1.2.0/package.tgz',
+12 verbose tar pack   '/Users/han/Projects/country-flags' ]
+13 verbose tarball /Users/han/.npm/svg-country-flags/1.2.0/package.tgz
+14 verbose folder /Users/han/Projects/country-flags
+15 verbose addLocalTarball adding from inside cache /Users/han/.npm/svg-country-flags/1.2.0/package.tgz
+16 verbose correctMkdir /Users/han/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd svg-country-flags@1.2.0
+18 verbose afterAdd /Users/han/.npm/svg-country-flags/1.2.0/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/han/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/han/.npm/svg-country-flags/1.2.0/package/package.json written
+21 silly publish { name: 'svg-country-flags',
+21 silly publish   version: '1.2.0',
+21 silly publish   description: 'SVG and PNG renders of all countries\' flags.',
+21 silly publish   scripts:
+21 silly publish    { 'build-pngs': 'node scripts/build-pngs.js',
+21 silly publish      'build-100-250-1000-pngs': 'node scripts/build-pngs.js 100: && node scripts/build-pngs.js 250: && node scripts/build-pngs.js 1000:' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/hjnilsson/country-flags.git' },
+21 silly publish   keywords: [ 'flags', 'countries', 'country', 'svg' ],
+21 silly publish   author: { name: 'Hampus Nilsson' },
+21 silly publish   license: 'SAX-PD',
+21 silly publish   bugs: { url: 'https://github.com/hjnilsson/country-flags/issues' },
+21 silly publish   homepage: 'http://hjnilsson.github.io/country-flags/',
+21 silly publish   readme: 'country-flags\n=============\n\nYou can view all the flags here: http://hjnilsson.github.io/country-flags/\n\nThis repository contains renders of all the worlds flags in SVG and PNG format.\n\nThe source files were taken from Wikipedia and are not under copyright\nprotection since flags are effectively in public domain (there may be other\nrestrictions on how the flag can be used though).\n\nThe flags are named by their 2-letter ISO-3166 country code, except for the\nconstituent countries of Great Britain which have 6-letter codes "GB-ENG" etc).\n\nKosovo uses the user-assigned country code `XK`, which is not part of the ISO standard, but in use by several multinational organizations.\n\nAlso included is a JSON file that maps the ISO country code to the name of the\ncountry.\n\nYou can also install this as a NPM module:\n\n    npm install --save svg-country-flags\n\nArbitrary Width\n===============\n\nIf you would like the flags in a different width than 100px, 250px or 1000px,\nyou can run the node script \'build-pngs\', you must first install the modules `svgexport` and `imagemin-cli`:\n\n    npm install -g svgexport imagemin-cli\n    npm run build-pngs -- 1000:\n\nReplace `1000:` with whatever width you want (note the `:`), or type `:200` to get\nPNGs with a height of 200px.\n\nArbitrary Width Manually\n========================\n\nIf you cannot run the node script above, you can do the same steps manually.\n\nUse a combination of `svgexport` and `imagemin-cli` from NPM to get that.\n`imagemin` is very important because `svgexport` produces uncompressed PNGs which are several MB each.\n\nRun the following commands in the `svg/` directory to get PNGs of a desired width:\n\n    for file in *.svg; do svgexport $file "`basename $file svg`png" pad 1000: ; done\n    imagemin *.png --out-dir=../compressed-pngs/\n    rm *.png\n\nThe resultant files will be in the `compressed-pngs` folder. As before, `1000:` is the dimensions to export.\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '8019349f65b37016fe43bd7c2cefabbee9e78d60',
+21 silly publish   _id: 'svg-country-flags@1.2.0',
+21 silly publish   _shasum: 'dc49741f0fde920a65676bc3d66f7465b519b777',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name svg-country-flags
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'svg-country-flags',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'svg-country-flags',
+26 silly mapToRegistry   name: 'svg-country-flags',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/svg-country-flags
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/han/.npm/svg-country-flags/1.2.0/package.tgz
+30 verbose request uri https://registry.npmjs.org/svg-country-flags
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 9:33:41 AM
+33 verbose request using bearer token for auth
+34 verbose request id c5939c9372b79ec8
+35 http request PUT https://registry.npmjs.org/svg-country-flags
+36 http 403 https://registry.npmjs.org/svg-country-flags
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '91',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Mon, 08 Jan 2018 08:33:45 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-bma7026-BMA',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1515400422.138336,VS0,VE3486',
+37 verbose headers   vary: 'Accept-Encoding, Accept' }
+38 verbose request invalidating /Users/han/.npm/registry.npmjs.org/svg-country-flags on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: You cannot publish over the previously published version 1.2.0. : svg-country-flags
+40 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid svg-country-flags
+43 verbose cwd /Users/han/Projects/country-flags
+44 error Darwin 17.3.0
+45 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+46 error node v6.11.2
+47 error npm  v3.10.10
+48 error code E403
+49 error You cannot publish over the previously published version 1.2.0. : svg-country-flags
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
