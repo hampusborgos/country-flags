@@ -108,6 +108,8 @@ function convert_all_files(svgs, callback) {
             callback()
             return
         }
+
+        do_next_file()
     }
 
     do_next_file()
