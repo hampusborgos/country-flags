@@ -8,7 +8,7 @@ var svg_directory = 'svg/'
 // Check arguments
 function get_output_directory() {
     // Replace : with x, if two dimensions are specified
-    var dim = process.argv[2].split(':')
+    var dim = process.argv[2].split(':').filter(x => x.length > 0)
     var dir = 'png' + (dim.length > 1 ? dim.join('x') : dim) + 'px'
 
     return dir
