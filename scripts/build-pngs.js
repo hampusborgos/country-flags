@@ -7,7 +7,11 @@ var svg_directory = 'svg/'
 
 // Check arguments
 function get_output_directory() {
-    return 'png' + process.argv[2].replace(':', '') + 'px'
+    // Replace : with x, if two dimensions are specified
+    var dim = process.argv[2].split(':')
+    var dir = 'png' + (dim.length > 1 ? dim.join('x') : dim) + 'px'
+
+    return dir
 }
 
 function get_output_dimensions() {
@@ -22,7 +26,13 @@ function check_arguments(callback) {
 
     var dimensions = process.argv[2]
     if (/^[0-9]*:[0-9]*$/.test(dimensions) && dimensions.length > 2) {
-        console.log("Output folder: " + get_output_directory())
+        var output_folder = get_output_directory()
+        console.log("Output folder: " + output_folder)
+        
+        if (!fs.existsSync(output_folder)){
+            fs.mkdirSync(output_folder)
+        }
+
         callback()
     }
     else {
@@ -35,7 +45,7 @@ function check_for_svgexport(callback) {
     // Check for presence of imagemin-cli and svgexport
     console.log("Checking if `svgexport` is available...")
     exec('svgexport', function(error, stdout, stderr) {
-        if (stdout.indexOf("Error")) {
+        if (stdout.indexOf("Usage: svgexport") !== -1) {
             callback()
         }
         else {
@@ -76,13 +86,17 @@ function get_all_svgs(callback) {
 
 function convert_and_compress_svg(path_to_svg, callback) {
     var path_to_tmp_png = path_to_svg.substring(0, path_to_svg.length - 4) + '.png'
-    exec("svgexport " + path_to_svg + " " + path_to_tmp_png + " pad " + get_output_dimensions(), (error, stdout, stderr) => {
+    var svgexport_command = "svgexport " + path_to_svg + " " + path_to_tmp_png + " pad " + get_output_dimensions()
+    console.log(svgexport_command)
+    exec(svgexport_command, (error, stdout, stderr) => {
         if (error) {
             console.log("Failed to convert SVG: " + path_to_svg)
             process.exit(1)
         }
 
-        exec("imagemin " + path_to_tmp_png + " --out-dir=" + get_output_directory(), (error, stdout, stderr) => {
+        var image_min_command = "imagemin " + path_to_tmp_png + " --out-dir=" + get_output_directory()
+        console.log(image_min_command)
+        exec(image_min_command, (error, stdout, stderr) => {
             // Always remove temp file
             fs.unlink(path_to_tmp_png, (error) => {})
 
@@ -108,8 +122,6 @@ function convert_all_files(svgs, callback) {
             callback()
             return
         }
-
-        do_next_file()
     }
 
     do_next_file()
