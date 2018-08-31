@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="640" viewBox="0 0 10080 5040">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 10080 5040">
 <defs>
 <clipPath id="c">
 <path d="M0,0V1.5H7V3H6zM6,0H3V3.5H0V3z"/>
@@ -18,10 +17,10 @@
 </g>
 <g fill="#fff">
 <use id="Comwlth" xlink:href="#Cstar" x="2520" y="3780"/>
-<use id="αCrucis" xlink:href="#Star7" x="7560" y="4200"/>
-<use id="βCrucis" xlink:href="#Star7" x="6300" y="2205"/>
-<use id="γCrucis" xlink:href="#Star7" x="7560" y="840"/>
-<use id="δCrucis" xlink:href="#Star7" x="8680" y="1869"/>
-<use id="εCrucis" xlink:href="#Star5" x="8064" y="2730"/>
+<use id="&#x3B1;Crucis" xlink:href="#Star7" x="7560" y="4200"/>
+<use id="&#x3B2;Crucis" xlink:href="#Star7" x="6300" y="2205"/>
+<use id="&#x3B3;Crucis" xlink:href="#Star7" x="7560" y="840"/>
+<use id="&#x3B4;Crucis" xlink:href="#Star7" x="8680" y="1869"/>
+<use id="&#x3B5;Crucis" xlink:href="#Star5" x="8064" y="2730"/>
 </g>
 </svg>

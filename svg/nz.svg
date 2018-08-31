@@ -1,18 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-
-height="600" width="1200">
-
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 600">
 <defs>
 <clipPath id="Canton">
 <path d="M 0,0 L 600,0 L 600,300 L 0,300 z"/>
 </clipPath>
-
 <clipPath id="Diagonals">
 <path d="M 0,0 L 300,150 L 0,150 z M 300,0 L 600,0 L 300,150 z M 300,150 L 600,150 L 600,300 z M 300,150 L 300,300 L 0,300 z"/>
 </clipPath>
-
 <g id="Pentagram">
 <g id="Arm" transform="translate(0,-0.324925)">
 <path d="M 0,0 L 0,0.5 L 1,0 z"/>
@@ -24,9 +17,7 @@ height="600" width="1200">
 <use xlink:href="#Arm" transform="rotate(-72,0,0) scale(-1,1)"/>
 </g>
 </defs>
-
 <rect fill="#00247d" x="0" y="0" width="1200" height="600"/>
-
 <g id="Flag_of_the_United_Kingdom">
 <path id="Saint_Andrews_Cross" stroke="#ffffff" d="M 0,0 L 600,300 M 0,300 L 600,0" stroke-width="60" clip-path="url(#Canton)"/>
 <path id="Saint_Patricks_Cross" stroke="#cc142b" d="M 0,0 L 600,300 M 0,300 L 600,0" stroke-width="40" clip-path="url(#Diagonals)"/>
@@ -35,7 +26,6 @@ height="600" width="1200">
 <path stroke="#cc142b" d="M 300,0 L 300,300 M 0,150 L 600,150" stroke-width="60" clip-path="url(#Canton)"/>
 </g>
 </g>
-
 <g id="Southern_Cross">
 <g id="Gamma_Crucis">
 <use xlink:href="#Pentagram" fill="#ffffff" transform="translate(900,120) scale(45.4)"/>

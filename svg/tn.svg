@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="-60 -40 120 80">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 -40 120 80">
 <g fill="#E70013">
 <rect x="-60" y="-40" width="120" height="80"/>
 <circle fill="#FFF" r="20"/>

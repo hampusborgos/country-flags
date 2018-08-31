@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">
 <rect fill="#D21034" width="720" height="480"/>
 <g fill="#007E3A">
 <rect width="480" height="240" x="120" y="120"/>

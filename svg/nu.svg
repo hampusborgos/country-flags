@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="300" viewBox="0 0 120 60">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 60">
 <clipPath id="t">
 <path d="M0,0V15H70V30H60zM0,30V40H30V0H60z"/>
 </clipPath>
@@ -18,7 +15,6 @@
 <g transform="scale(5.10390485)">
 <circle r="1" fill="#002868"/>
 <path id="s" d="M0,-513674 301930,415571 -488533,-158734H488533L-301930,415571" fill="#fcd116" transform="scale(0.00000194676)"/>
-
 </g>
 <use xlink:href="#s" transform="translate(-17.5,0.29) scale(3)"/>
 <use xlink:href="#s" transform="translate(17.5,0.29) scale(3)"/>
