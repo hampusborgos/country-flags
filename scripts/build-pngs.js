@@ -2,7 +2,7 @@ var process = require('process')
 var exec = require('child_process').exec
 var fs = require('fs')
 
-var help_message = "You must pass one argument to build-pngs. It should be dimension of the resultant image in the format 200: for width 200px, or :200 for height 200px."
+var help_message = "You must pass one argument to build-pngs. It should be target dimension in the format `200:` for width 200px, or `:200` for height 200px."
 var svg_directory = 'svg/'
 
 // Check arguments
