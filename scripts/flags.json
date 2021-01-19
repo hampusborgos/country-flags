@@ -38,27 +38,35 @@
 		"ts-using": "2021-01-18T19:46:00Z"
 	},
 	"ao": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Angola.svg",
 		"ts-using": "2020-09-16 15:47:32 -0400"
 	},
 	"aq": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_the_Antarctic_Treaty.svg",
+		"sources": ["https://www.ats.aq/e/antarctictreaty.html"],
 		"ts-using": "2020-09-15 18:14:51 -0400"
 	},
 	"ar": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Argentina.svg",
+		"sources": [
+			"http://manuelbelgrano.gov.ar/bandera/creacion-de-la-bandera-nacional/",
+			"https://www.argentina.gob.ar/normativa/nacional/ley-24855-44701/actualizacion"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"as": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_American_Samoa.svg",
 		"ts-using": "2020-09-17 15:24:30 -0400"
 	},
 	"at": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Austria.svg",
+		"sources": [
+			"https://www.bundesheer.at/abzeichen/dekorationen.shtml"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"au": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Australia_(converted).svg",
 		"ts-using": "2020-09-16 11:33:20 -0400"
 	},
 	"aw": {
@@ -66,7 +74,10 @@
 		"ts-using": "2020-09-17 11:26:24 -0400"
 	},
 	"ax": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Åland.svg",
+		"sources": [
+			"https://www.regeringen.ax/sites/www.regeringen.ax/files/attachments/page/grafisk_manual_12_juni_-20_0.pdf"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"az": {
