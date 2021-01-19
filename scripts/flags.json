@@ -81,7 +81,10 @@
 		"ts-using": "2021-01-18T19:46:00Z"
 	},
 	"az": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Azerbaijan.svg",
+		"sources": [
+			"https://en.wikipedia.org/wiki/File:Flag_of_Azerbaijan_(construction_sheet).JPG"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"ba": {
