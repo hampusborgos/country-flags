@@ -1,17 +1,23 @@
 {
 	"ad": {
 		"wiki-source": "File:Flag_of_Andorra.svg",
-		"def-source": "https://www.ompa.ad/images/PDF/normativa-signes/Normes_Grafiques.pdf",
+		"sources": [
+			"https://www.ompa.ad/images/PDF/normativa-signes/Normes_Grafiques.pdf",
+			"https://www.ompa.ad/en/graphic-regulations"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"ae": {
 		"wiki-source": "File:File:Flag_of_the_United_Arab_Emirates.svg",
-		"def-source": "https://uaecabinet.ae/storage/app/public/uploads/content_category/publications/9c0edef9df68e08cb0ead6a8200189f9.pdf",
+		"sources": [
+			"https://uaecabinet.ae/storage/app/public/uploads/content_category/publications/9c0edef9df68e08cb0ead6a8200189f9.pdf",
+			"https://uaecabinet.ae/en/publications"
+		],
 		"ts-using": "2021-01-18T19:46:00Z"
 	},
 	"af": {
 		"wiki-source": "File:Flag_of_Afghanistan.svg",
-		"def-source": "https://president.gov.af/en/flag/",
+		"sources": ["https://president.gov.af/en/flag/"],
 		"ts-using": "2020-09-17 09:31:51 -0400"
 	},
 	"ag": {
@@ -27,8 +33,9 @@
 		"ts-using": "2020-09-17 11:26:24 -0400"
 	},
 	"am": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Armenia.svg",
+		"sources": ["https://www.yeraguyn.com/wp-content/uploads/2018/02/HST-50-2012.pdf"],
+		"ts-using": "2021-01-18T19:46:00Z"
 	},
 	"an": {
 		"wiki-source": "File:<TODO>",
@@ -96,7 +103,7 @@
 	},
 	"bh": {
 		"wiki-source": "File:Flag_of_Bahrain.svg",
-		"def-source": "http://www.moci.gov.bh/en/KingdomofBahrain/BahrainFlag/",
+		"sources": ["http://www.moci.gov.bh/en/KingdomofBahrain/BahrainFlag/"],
 		"ts-using": "2020-09-17 11:26:24 -0400"
 	},
 	"bi": {
