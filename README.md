@@ -3,11 +3,12 @@ country-flags
 
 You can view all the flags here: https://hjnilsson.github.io/country-flags/
 
-This repository contains renders of all the worlds flags in SVG and PNG format.
+This repository contains accurate renders of all the worlds flags in SVG and PNG format.
 
-The source files were taken from Wikipedia and are not under copyright
-protection since flags are effectively in public domain (there may be other
-restrictions on how the flag can be used though).
+The source files were taken from Wikipedia and sometimes contributed back
+(when the country legislation more accurately describes what the flag should
+look like). The flags are not under copyright protection since flags are in public
+domain (there may be other restrictions on how the flag can be used though).
 
 The flags are named by their 2-letter ISO-3166 country code, except for the
 constituent countries of Great Britain which have 6-letter codes "GB-ENG" etc).
