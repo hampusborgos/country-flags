@@ -88,27 +88,33 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"ba": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Bosnia_and_Herzegovina.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"bb": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Barbados.svg",
+		"sources": [
+			"https://wipolex.wipo.int/en/legislation/details/312",
+			"https://web.archive.org/web/20100428062551/http://www.barbados.gov.bb/natflag.htm",
+			"https://www.foreign.gov.bb/?jet_download=748",
+			"https://www.gov.bb/Visit-Barbados/flag-etiquette"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"bd": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Bangladesh.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"be": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Belgium.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"bf": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Burkina_Faso.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"bg": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Bulgaria.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"bh": {
@@ -117,40 +123,47 @@
 		"ts-using": "2020-09-17 11:26:24 -0400"
 	},
 	"bi": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Burundi.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"bj": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Benin.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"bl": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_France.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"bm": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Bermuda.svg",
 		"ts-using": "2020-09-17 14:30:28 -0400"
 	},
 	"bn": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Brunei.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"bo": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Bandera_de_Bolivia_(Estado).svg",
 		"ts-using": "2020-09-17 14:30:28 -0400"
 	},
 	"bq": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_the_Netherlands.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"br": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Brazil.svg",
+		"sources": [
+			"http://www.planalto.gov.br/ccivil_03/Leis/L5700.htm",
+			"https://www.gov.br/defesa/pt-br/assuntos/noticias/18-de-setembro-data-celebra-os-simbolos-nacionais"
+		],
+		"ts-using": "2021-01-20 08:41:28 +0100"
 	},
 	"bs": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_the_Bahamas.svg",
+		"sources": [
+			"https://forms.bahamas.gov.bs/dp_form.asp?fid=430"
+		],
+		"ts-using": "2019-10-12T01:45:07Z"
 	},
 	"bt": {
 		"wiki-source": "File:<TODO>",
