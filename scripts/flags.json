@@ -782,8 +782,11 @@
 		"ts-using": "2020-09-17 14:30:28 -0400"
 	},
 	"pr": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2020-09-16 13:49:04 -0400"
+		"wiki-source": "File:Flag_of_Puerto_Rico.svg",
+		"sources": [
+			"https://welcome.topuertorico.org/reference/flag.shtml"
+		],
+		"ts-using": "2021-01-20T18:15:00Z"
 	},
 	"ps": {
 		"wiki-source": "File:<TODO>",
