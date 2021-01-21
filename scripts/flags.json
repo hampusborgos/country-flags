@@ -194,23 +194,27 @@
 		"ts-using": "2020-12-03T03:06:01Z"
 	},
 	"ca": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2020-09-16 09:40:30 -0400"
+		"wiki-source": "File:Flag_of_Canada_(Pantone).svg",
+		"sources": [
+			"http://www.publications.gc.ca/site/eng/9.859032/publication.html",
+			"https://commons.wikimedia.org/wiki/File:Flag_of_Canada_(construction_sheet_-_leaf_geometry).svg"
+		],
+		"ts-using": "2021-01-09T07:17:33Z"
 	},
 	"cc": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_the_Cocos_(Keeling)_Islands.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"cd": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_the_Democratic_Republic_of_the_Congo_(3-2).svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"cf": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_the_Central_African_Republic.svg",
+		"ts-using": "2019-10-01T02:22:43Z"
 	},
 	"cg": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_the_Republic_of_the_Congo.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"ch": {
