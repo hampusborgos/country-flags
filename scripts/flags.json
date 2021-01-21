@@ -238,8 +238,12 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"cn": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_the_People's_Republic_of_China.svg",
+		"sources": [
+			"http://www.npc.gov.cn/npc/gqgggh/202012/7ac70d3a4cfb480ea9edc872bdc85578.shtml",
+			"http://www.npc.gov.cn/npc/gqgggh/202012/84c174f138044a98ba211a15b316ffc4/files/afff82e8be374e8ebbf2f82085c7e971.pdf"
+		],
+		"ts-using": "2021-01-02T05:50:04Z"
 	},
 	"co": {
 		"wiki-source": "File:<TODO>",
