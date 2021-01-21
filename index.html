@@ -46,13 +46,20 @@
 
 		.flag figcaption {
 			text-align: center;
+		}
 
+		/* Non-rect screens (e.g. notch-screens like iPhone X, Pixel 3 XL, etc.) */
+		@supports(padding: max(0px)) {
+			html {
+				padding-left: max(16px, env(safe-area-inset-left));
+				padding-right: max(16px, env(safe-area-inset-right));
+			}
 		}
 		</style>
 	</head>
 	<body>
 		<h1>All country flags in SVG</h1>
-		<p>The flags of all countries available as PNG and SVG.</p>
+		<p>Accurate renderings of the flags of all countries available as PNG and SVG.</p>
 		<p>Easiest way to get them is to clone the git repository:</p>
 		<tt>git clone git@github.com:hjnilsson/country-flags.git</tt>
 		<p>Or go to the <a href="https://github.com/hjnilsson/country-flags">Github page</a> to read more</p>
