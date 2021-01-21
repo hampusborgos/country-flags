@@ -186,8 +186,12 @@
 		"ts-using": "2021-01-20T20:11:00Z"
 	},
 	"bz": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2020-09-16 14:56:48 -0400"
+		"wiki-source": "File:Flag_of_Belize.svg",
+		"sources": [
+			"https://www.mybelize.net/belize-flag-standardization/",
+			"https://www.facebook.com/lovefmbelize/videos/press-conference-standardization-of-the-belizean-flag/2189803641129701"
+		],
+		"ts-using": "2020-12-03T03:06:01Z"
 	},
 	"ca": {
 		"wiki-source": "File:<TODO>",
