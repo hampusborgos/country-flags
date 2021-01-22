@@ -226,11 +226,11 @@
 		"ts-using": "2019-01-09T15:38:54Z"
 	},
 	"ck": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_the_Cook_Islands.svg",
 		"ts-using": "2020-09-17 14:30:28 -0400"
 	},
 	"cl": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Chile.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"cm": {
@@ -354,12 +354,19 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"fr": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_France.svg",
+		"sources": [
+			"https://web.archive.org/web/20110622052609/http://www.diplomatie.gouv.fr/de/frankreich_3/frankreich-entdecken_244/portrat-frankreichs_247/die-symbole-der-franzosischen-republik_260/trikolore-die-nationalfahne_114.html"
+		],
 		"ts-using": "2020-09-18 16:00:19 -0400"
 	},
 	"ga": {
 		"wiki-source": "File:<TODO>",
 		"ts-using": "2018-08-31 08:41:28 +0100"
+	},
+	"gb": {
+		"wiki-source": "File:Flag_of_the_United_Kingdom.svg",
+		"ts-using": "2020-09-16 10:37:32 -0400"
 	},
 	"gb-eng": {
 		"wiki-source": "File:<TODO>",
@@ -377,10 +384,6 @@
 		"wiki-source": "File:<TODO>",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
-	"gb": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2020-09-16 10:37:32 -0400"
-	},
 	"gd": {
 		"wiki-source": "File:<TODO>",
 		"ts-using": "2018-08-31 08:41:28 +0100"
@@ -390,8 +393,8 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"gf": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2019-12-30 11:33:12 +0100"
+		"wiki-source": "File:Flag_of_France.svg",
+		"ts-using": "2020-09-18 16:00:19 -0400"
 	},
 	"gg": {
 		"wiki-source": "File:<TODO>",
@@ -418,8 +421,8 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"gp": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_France.svg",
+		"ts-using": "2020-09-18 16:00:19 -0400"
 	},
 	"gq": {
 		"wiki-source": "File:<TODO>",
@@ -637,8 +640,8 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"mf": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_France.svg",
+		"ts-using": "2020-09-18 16:00:19 -0400"
 	},
 	"mg": {
 		"wiki-source": "File:<TODO>",
@@ -673,7 +676,7 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"mq": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_France.svg",
 		"ts-using": "2020-09-18 16:00:19 -0400"
 	},
 	"mr": {
@@ -793,8 +796,8 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"pm": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_France.svg",
+		"ts-using": "2020-09-18 16:00:19 -0400"
 	},
 	"pn": {
 		"wiki-source": "File:<TODO>",
@@ -828,8 +831,8 @@
 		"ts-using": "2020-04-20 08:39:37 -0400"
 	},
 	"re": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_France.svg",
+		"ts-using": "2020-09-18 16:00:19 -0400"
 	},
 	"ro": {
 		"wiki-source": "File:<TODO>",
@@ -872,7 +875,7 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"sh": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_the_United_Kingdom.svg",
 		"ts-using": "2020-09-17 13:02:55 -0400"
 	},
 	"si": {
@@ -940,21 +943,24 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"tf": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_the_French_Southern_and_Antarctic_Lands.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"tg": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Togo.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"th": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Thailand.svg",
+		"sources": [
+			"https://www.nstda.or.th/th/nstda-knowledge/11557-thaiflag-color"
+		],
+		"ts-using": "2018-02-15T10:46:33Z"
 	},
 	"tj": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Tajikistan.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
-    },
+	},
 	"tk": {
 		"wiki-source": "File:Flag of Tokelau.svg",
 		"ts-using": "2020-01-15T22:34:32Z"
@@ -1064,8 +1070,8 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"yt": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_France.svg",
+		"ts-using": "2020-09-18 16:00:19 -0400"
 	},
 	"za": {
 		"wiki-source": "File:<TODO>",
