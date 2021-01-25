@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hjnilsson/country-flags.git"
+    "url": "git+https://github.com/hampusborgos/country-flags.git"
   },
   "keywords": [
     "flags",
@@ -19,7 +19,7 @@
   "author": "Hampus Nilsson",
   "license": "PD",
   "bugs": {
-    "url": "https://github.com/hjnilsson/country-flags/issues"
+    "url": "https://github.com/hampusborgos/country-flags/issues"
   },
-  "homepage": "https://hjnilsson.github.io/country-flags/"
+  "homepage": "https://hampusborgos.github.io/country-flags/"
 }
