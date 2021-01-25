@@ -1,7 +1,7 @@
 country-flags
 =============
 
-You can view all the flags here: https://hjnilsson.github.io/country-flags/
+You can view all the flags here: https://hampusborgos.github.io/country-flags/
 
 This repository contains accurate renders of all the worlds flags in SVG and PNG format.
 
