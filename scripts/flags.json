@@ -89,7 +89,7 @@
 	},
 	"ba": {
 		"wiki-source": "File:Flag_of_Bosnia_and_Herzegovina.svg",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"ts-using": "2021-01-26T13:20:00Z"
 	},
 	"bb": {
 		"wiki-source": "File:Flag_of_Barbados.svg",
@@ -330,7 +330,11 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"eu": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Europe.svg",
+		"sources": [
+			"https://publications.europa.eu/code/en/en-5000100.htm",
+			"https://europa.eu/european-union/about-eu/symbols/flag_en"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"fi": {
@@ -377,8 +381,8 @@
 		"ts-using": "2020-09-17 12:20:15 -0400"
 	},
 	"gb-sct": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2020-09-17 12:20:15 -0400"
+		"wiki-source": "File:Flag_of_Scotland.svg",
+		"ts-using": "2021-01-26T13:20:00Z"
 	},
 	"gb-wls": {
 		"wiki-source": "File:<TODO>",
