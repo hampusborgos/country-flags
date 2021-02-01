@@ -776,8 +776,11 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"pa": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Panama.svg",
+		"sources": [
+			"https://www.gacetaoficial.gob.pa/pdfTemp/28432_A/65219.pdf"
+		],
+		"ts-using": "2021-02-01T14:00:00Z"
 	},
 	"pe": {
 		"wiki-source": "File:<TODO>",
