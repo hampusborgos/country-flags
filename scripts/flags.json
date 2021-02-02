@@ -977,8 +977,11 @@
 		"ts-using": "2020-01-15T22:34:32Z"
 	},
 	"tl": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2021-01-14 08:56:35 -0500"
+		"wiki-source": "File:Flag_of_East_Timor.svg",
+		"sources": [
+			"https://en.wikisource.org/wiki/Constitution_of_the_Democratic_Republic_of_East_Timor#Section_15_.28National_Flag.29"
+		],
+		"ts-using": "2020-12-01T15:44:43Z"
 	},
 	"tm": {
 		"wiki-source": "File:Flag_of_Turkmenistan.svg",
@@ -988,7 +991,10 @@
 		"ts-using": "2021-01-29T13:46:00Z"
 	},
 	"tn": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Tunisia.svg",
+		"sources": [
+			"http://www.legislation.tn/sites/default/files/fraction-journal-officiel/1999/1999F/054/TF1999571.pdf"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"to": {
@@ -1091,15 +1097,24 @@
 		"ts-using": "2020-09-18 16:00:19 -0400"
 	},
 	"za": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2020-09-16 13:30:45 -0400"
+		"wiki-source": "File:Flag_of_South_Africa.svg",
+		"sources": [
+			"https://www.gov.za/about-sa/national-symbols/national-flag",
+			"https://www.gov.za/documents/constitution-republic-south-africa-1996-schedule-1-national-flag"
+		],
+		"ts-using": "2020-06-30T16:22:19Z"
 	},
 	"zm": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Zambia.svg",
+		"sources": [
+			"http://www.parliament.gov.zm/sites/default/files/documents/acts/National%20Flag%20and%20Armorial%20Ensigns%20Act.pdf",
+			"http://www.parliament.gov.zm/node/688",
+			"https://en.wikipedia.org/wiki/Flag_of_Zambia"
+		],
+		"ts-using": "2018-12-24T11:38:09Z"
 	},
 	"zw": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Zimbabwe.svg",
+		"ts-using": "2021-01-25T18:34:44Z"
 	}
 }
