@@ -1061,36 +1061,45 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"vg": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2020-09-17 14:30:28 -0400"
+		"wiki-source": "File:Flag_of_the_British_Virgin_Islands.svg",
+		"ts-using": "2021-02-03T18:57:41Z"
 	},
 	"vi": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_the_United_States_Virgin_Islands.svg",
+		"sources": [
+			"https://web.archive.org/web/19980128021246/http://www.gov.vi/html/smybols.html"
+		],
 		"ts-using": "2020-09-17 12:54:05 -0400"
 	},
 	"vn": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Vietnam.svg",
+		"sources": [
+			"https://www.fotw.info/flags/vn.html"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"vu": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Vanuatu_(official).svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"wf": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Wallis_and_Futuna.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"ws": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Samoa.svg",
+		"sources": [
+			"https://web.archive.org/web/20090207214516/http://www.govt.ws/popiframe_ge.cfm?gi_id=006"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"xk": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Kosovo.svg",
 		"ts-using": "2020-09-17 08:49:19 -0400"
 	},
 	"ye": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Yemen.svg",
+		"ts-using": "2019-04-01T14:28:44Z"
 	},
 	"yt": {
 		"wiki-source": "File:Flag_of_France.svg",
