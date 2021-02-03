@@ -1053,12 +1053,15 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"vc": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Saint_Vincent_and_the_Grenadines.svg",
+		"sources": [
+			"https://www.gov.vc/index.php/media-center/about-svg/28-the-flag"
+		],
+		"ts-using": "2019-12-18T01:33:17Z"
 	},
 	"ve": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Venezuela.svg",
+		"ts-using": "2018-10-24T10:04:11Z"
 	},
 	"vg": {
 		"wiki-source": "File:Flag_of_the_British_Virgin_Islands.svg",
