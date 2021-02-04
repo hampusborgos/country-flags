@@ -918,8 +918,11 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"sr": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Suriname.svg",
+		"sources": [
+			"https://web.archive.org/web/20130724003656/http://www.gov.sr/media/231475/kleuren_nationale_vlag_republiek_suriname.pdf"
+		],
+		"ts-using": "2021-02-03T19:00:00Z"
 	},
 	"ss": {
 		"wiki-source": "File:<TODO>",
