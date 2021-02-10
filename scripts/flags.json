@@ -646,7 +646,9 @@
 		"wiki-source": "File:Flag_of_Moldova.svg",
 		"sources": [
 			"http://lex.justice.md/viewdoc.php?action=view&view=doc&id=336791&lang=1",
-			"http://lex.justice.md/UserFiles/File/2010/mo231-234md/an.2_217.doc"
+			"http://lex.justice.md/UserFiles/File/2010/mo231-234md/an.1_217.doc",
+			"http://lex.justice.md/UserFiles/File/2010/mo231-234md/an.2_217.doc",
+			"http://lex.justice.md/UserFiles/File/2010/mo231-234md/an.3_217.doc"
 		],
 		"ts-using": "2021-02-10T17:13:13Z"
 	},
