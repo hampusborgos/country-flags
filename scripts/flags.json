@@ -921,15 +921,18 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"sm": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_San_Marino.svg",
+		"sources": [
+			"http://www.esteri.sm/contents/instance2/files/document/RSMSCHEDAPAESE.pdf"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"sn": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Senegal.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"so": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Somalia.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"sr": {
@@ -940,19 +943,28 @@
 		"ts-using": "2021-02-03T19:00:00Z"
 	},
 	"ss": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_South_Sudan.svg",
+		"sources": [
+			"https://web.archive.org/web/20131219022800/http://www.goss-online.org/magnoliaPublic/en/about/symbols.html"
+		],
+		"ts-using": "2020-11-13T16:24:03Z"
 	},
 	"st": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Sao_Tome_and_Principe.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"sv": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_El_Salvador.svg",
+		"sources": [
+			"https://web.archive.org/web/20160313041746/http://asamblea.gob.sv/eparlamento/indice-legislativo/buscador-de-documentos-legislativos/ley-de-simbolos-patrios"
+		],
 		"ts-using": "2020-04-20 08:55:17 -0400"
 	},
 	"sx": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Sint_Maarten.svg",
+		"sources": [
+			"https://web.archive.org/web/20140528011140/http://www.museumsintmaarten.org/index.php?option=com_content&view=article&id=90&Itemid=123"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"sy": {
@@ -960,7 +972,10 @@
 		"ts-using": "2019-07-27T14:28:29Z"
 	},
 	"sz": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Eswatini.svg",
+		"sources": [
+			"https://web.archive.org/web/20140619201436/http://swaziland.org.tw/e12.html"
+		],
 		"ts-using": "2020-09-16 15:09:50 -0400"
 	},
 	"tc": {
