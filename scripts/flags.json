@@ -703,8 +703,13 @@
 		"ts-using": "2020-09-18 16:00:19 -0400"
 	},
 	"mr": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Mauritania.svg",
+		"sources": [
+			"http://www.kennach.gov.mr/docs/plan01.pdf",
+			"http://www.kennach.gov.mr/drapeau",
+			"http://www.kennach.gov.mr/texts"
+		],
+		"ts-using": "2021-01-18T12:18:42Z"
 	},
 	"ms": {
 		"wiki-source": "File:<TODO>",
