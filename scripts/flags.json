@@ -326,7 +326,10 @@
 		"ts-using": "2020-09-16 16:49:24 -0400"
 	},
 	"et": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Ethiopia.svg",
+		"sources": [
+			"https://web.archive.org/web/20110723121836/http://www.ethiopar.net/type/Amharic/hopre/bills/1998/654.ae..pdf"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"eu": {
@@ -723,7 +726,7 @@
 		"ts-using": "2019-09-09T18:47:24Z"
 	},
 	"mv": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Maldives.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"mw": {
@@ -779,7 +782,7 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"nr": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Nauru.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"nu": {
@@ -806,8 +809,11 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"pf": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_French_Polynesia.svg",
+		"sources": [
+			"http://lexpol.cloud.pf/document.php?document=189933&deb=70&fin=71&titre=RMOpbGliw6lyYXRpb24gbsKwIDg0LTEwMzAgQVQgZHUgMjMvMTEvMTk4NA=="
+		],
+		"ts-using": "2021-01-16T12:22:03Z"
 	},
 	"pg": {
 		"wiki-source": "File:<TODO>",
