@@ -472,8 +472,12 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"hr": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Croatia.svg",
+		"sources": [
+			"https://web.archive.org/web/20120208064423/http://www.sabor.hr/lgs.axd?t=16&id=19045",
+			"https://web.archive.org/web/20111106144124/http://www.sabor.hr/Default.aspx?sec=4317"
+		],
+		"ts-using": "2021-02-16T18:08:11Z"
 	},
 	"ht": {
 		"wiki-source": "File:<TODO>",
