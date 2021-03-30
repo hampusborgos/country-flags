@@ -34,7 +34,7 @@ You can also install this as a NPM module:
 
 ## Exporting to pngs
 
-In addition to the the SVG "sources" for all flags, we've also provided PNG exports of the SVG renderings in 100px, 250px, and 1000px widths. If you're still using PNGs (SVG are scalable, after all), and the pre-rendered versions don't fit your needs, use the following methods to get different widths:
+In addition to the the SVG "sources" for all flags, we've also provided PNG exports of the SVG renderings in 100px, 250px, and 1000px widths. If you're still using PNGs (SVGs are scalable, after all), and the pre-rendered versions don't fit your needs, use the following methods to get different widths:
 
 ### Arbitrary Width
 
