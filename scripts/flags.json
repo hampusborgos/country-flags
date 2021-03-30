@@ -345,8 +345,11 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"fj": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2020-09-17 14:30:28 -0400"
+		"wiki-source": "File:Flag_of_Fiji.svg",
+		"sources": [
+			"https://web.archive.org/web/20140505040638/http://www.fijihighcom.com/home-mainmenu-1/student-info-mainmenu-59/55-coat-of-arms.html"
+		],
+		"ts-using": "2021-03-30T19:02:13Z"
 	},
 	"fk": {
 		"wiki-source": "File:<TODO>",
