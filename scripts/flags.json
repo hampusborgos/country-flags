@@ -540,8 +540,12 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"je": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Jersey.svg",
+		"sources": [
+			"https://www.gov.je/Government/NonexecLegal/BailiffsChambers/Pages/FlyingFlags.aspx",
+			"https://www.gov.je/SiteCollectionDocuments/Government%20and%20administration/ID%20flag-jsy%202010-02-12%20BJL.pdf"
+		],
+		"ts-using": "2021-03-31T13:16:11Z"
 	},
 	"jm": {
 		"wiki-source": "File:Flag_of_Jamaica.svg",
