@@ -1011,8 +1011,11 @@
 		"ts-using": "2020-09-16 15:09:50 -0400"
 	},
 	"tc": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2020-09-17 14:30:28 -0400"
+		"wiki-source": "File:Flag_of_the_Turks_and_Caicos_Islands.svg",
+		"sources": [
+			"http://online.fliphtml5.com/fizd/ikss"
+		],
+		"ts-using": "2021-03-31T13:59:11Z"
 	},
 	"td": {
 		"wiki-source": "File:<TODO>",
