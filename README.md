@@ -25,7 +25,7 @@ country.
 
 ## Get the flags
 
-You can [download this repository](https://github.com/hampusborgos/country-flags/archive/refs/heads/master.zip). Or you can clone it. You can also [view all the flags here](https://hampusborgos.github.io/country-flags/).
+You can [download this repository](https://github.com/hampusborgos/country-flags/archive/refs/heads/main.zip). Or you can clone it. You can also [view all the flags here](https://hampusborgos.github.io/country-flags/).
 
 You can also install this as a NPM module:
 
