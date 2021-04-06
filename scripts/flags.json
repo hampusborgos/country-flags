@@ -909,8 +909,12 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"rs": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Serbia.svg",
+		"sources": [
+			"https://www.srbija.gov.rs/tekst/en/130128/national-symbols.php",
+			"https://www.srbija.gov.rs/extfile/sr/142564/uredba_izvornik_grba_zastave_himne0355_cyr.zip"
+		],
+		"ts-using": "2021-04-06T15:12:13Z"
 	},
 	"ru": {
 		"wiki-source": "File:<TODO>",
