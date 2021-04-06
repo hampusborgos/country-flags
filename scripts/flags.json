@@ -763,8 +763,12 @@
 		"ts-using": "2020-09-18 09:59:55 -0400"
 	},
 	"my": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Malaysia.svg",
+		"sources": [
+			"https://web.archive.org/web/20140507210010/http://mygov.malaysia.gov.my/EN/Main/MsianGov/MsianFlagAndCrest/Pages/MsianFlagAndCrest.aspx",
+			"https://web.archive.org/web/20160126013938/http://pmr.penerangan.gov.my/index.php?option=com_content&view=article&id=1595%3Acara-membuat-bendera&catid=321%3Abendera-kita&Itemid=20"
+		],
+		"ts-using": "2019-10-02T13:45:53Z"
 	},
 	"mz": {
 		"wiki-source": "File:<TODO>",
