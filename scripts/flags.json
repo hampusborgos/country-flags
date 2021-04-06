@@ -956,8 +956,11 @@
 		"ts-using": "2021-01-19T16:15:15Z"
 	},
 	"sk": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Slovakia.svg",
+		"sources": [
+			"https://www.vlada.gov.sk/statna-vlajka/"
+		],
+		"ts-using": "2019-11-25T18:10:20Z"
 	},
 	"sl": {
 		"wiki-source": "File:Flag_of_Sierra_Leone.svg",
