@@ -278,7 +278,7 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"de": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Germany.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"dj": {
@@ -853,7 +853,10 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"pk": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Pakistan.svg",
+		"sources": [
+			"https://www.fotw.info/flags/pk'.html"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"pl": {
