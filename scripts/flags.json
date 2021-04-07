@@ -849,8 +849,11 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"ph": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_the_Philippines.svg",
+		"sources": [
+			"https://web.archive.org/web/20140210050312/http://www.gov.ph/1936/03/25/executive-order-no-23/"
+		],
+		"ts-using": "2021-03-27T08:44:03Z"
 	},
 	"pk": {
 		"wiki-source": "File:Flag_of_Pakistan.svg",
