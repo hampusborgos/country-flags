@@ -439,7 +439,11 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"gr": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Greece.svg",
+		"sources": [
+			"https://web.archive.org/web/20130120102653/http://old.law.uoa.gr/crime-research/simaia.pdf",
+			"https://web.archive.org/web/20070402084632/http://www.army.gr/n/g/publications/articles/GreekFlag0/GreekFlag1/"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"gs": {
@@ -463,8 +467,12 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"hk": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Hong_Kong.svg",
+		"sources": [
+			"https://www.elegislation.gov.hk/hk/A602",
+			"https://web.archive.org/web/20201003180227/https://www.protocol.gov.hk/flags/chi/r_flag/index.html"
+		],
+		"ts-using": "2021-04-12T16:03:22Z"
 	},
 	"hm": {
 		"wiki-source": "File:<TODO>",
@@ -863,8 +871,12 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"pl": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Poland.svg",
+		"sources": [
+			"https://cdn.shoplo.com/0925/files/konstytucja-rp.pdf?48",
+			"https://en.wikipedia.org/wiki/Flag_of_Poland"
+		],
+		"ts-using": "2018-08-24T11:25:44Z"
 	},
 	"pm": {
 		"wiki-source": "File:Flag_of_France.svg",
