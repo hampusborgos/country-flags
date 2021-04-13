@@ -807,7 +807,10 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"nl": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_the_Netherlands.svg",
+		"sources": [
+			"https://puc.overheid.nl/mp-bundels/doc/PUC_41859_10/1/#7185c358-2968-4439-a34a-297f8a2565a3"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"no": {
@@ -907,8 +910,11 @@
 		"ts-using": "2021-03-15T00:22:12Z"
 	},
 	"pw": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Palau.svg",
+		"sources": [
+			"https://www.palaugov.pw/about-palau/flag/"
+		],
+		"ts-using": "2018-06-03T05:57:42Z"
 	},
 	"py": {
 		"wiki-source": "File:<TODO>",
@@ -923,7 +929,10 @@
 		"ts-using": "2020-09-18 16:00:19 -0400"
 	},
 	"ro": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Romania.svg",
+		"sources": [
+			"https://www.refworld.org/docid/3ae6ab897c.html"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"rs": {
