@@ -128,6 +128,9 @@
 	},
 	"bj": {
 		"wiki-source": "File:Flag_of_Benin.svg",
+		"sources": [
+			"https://www.gouv.bj/benin/le-drapeau/"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"bl": {
