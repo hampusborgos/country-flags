@@ -955,8 +955,11 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"sa": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Saudi_Arabia.svg",
+		"sources": [
+			"https://web.archive.org/web/20120417231457/http://www.saudiembassy.net/about/country-information/facts_and_figures/"
+		],
+		"ts-using": "2020-11-28T15:15:21Z"
 	},
 	"sb": {
 		"wiki-source": "File:Flag_of_the_Solomon_Islands.svg",
