@@ -226,6 +226,9 @@
 	},
 	"ci": {
 		"wiki-source": "File:Flag_of_Côte_d'Ivoire.svg",
+		"sources": [
+			"https://www.fonctionpublique.gouv.ci/assets/rubriques/_documentation/5_Symboles_Republique_CI2018.pdf"
+		],
 		"ts-using": "2019-01-09T15:38:54Z"
 	},
 	"ck": {
