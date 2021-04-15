@@ -401,8 +401,12 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"gd": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Grenada.svg",
+		"sources": [
+			"https://www.gov.gd/national-symbols-grenada#flag",
+			"https://web.archive.org/web/20200624214609/http://www.gov.gd/national-symbols-grenada"
+		],
+		"ts-using": "2020-11-21T19:26:05Z"
 	},
 	"ge": {
 		"wiki-source": "File:<TODO>",
