@@ -912,7 +912,10 @@
 		"ts-using": "2021-01-20T18:15:00Z"
 	},
 	"ps": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Palestine.svg",
+		"sources": [
+			"http://muqtafi.birzeit.edu/pg/getleg.asp?id=15212"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"pt": {
