@@ -515,8 +515,11 @@
 		"ts-using": "2021-02-17T10:58:19Z"
 	},
 	"id": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Indonesia.svg",
+		"sources": [
+			"https://web.archive.org/web/20110626220937/http://pusatbahasa.kemdiknas.go.id/lamanv4/sites/default/files/UU_2009_24.pdf"
+		],
+		"ts-using": "2020-08-22T16:48:27Z"
 	},
 	"ie": {
 		"wiki-source": "File:Flag_of_Ireland.svg",
