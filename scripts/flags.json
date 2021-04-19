@@ -566,8 +566,11 @@
 		"ts-using": "2021-04-19T14:50:13Z"
 	},
 	"it": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Italy.svg",
+		"sources": [
+			"https://web.archive.org/web/20190923074028/http://www.radiomarconi.com/marconi/bandiere/"
+		],
+		"ts-using": "2021-04-19T15:48:13Z"
 	},
 	"je": {
 		"wiki-source": "File:Flag_of_Jersey.svg",
