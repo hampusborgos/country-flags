@@ -547,16 +547,23 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"iq": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Iraq.svg",
+		"sources": [
+			"https://web.archive.org/web/20080809182058/http://iraqflag.parliament.iq/icor.php?name=iraqiflag&pa=showpage&pid=10"
+		],
 		"ts-using": "2020-09-16 12:20:43 -0400"
 	},
 	"ir": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Iran.svg",
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"is": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Iceland.svg",
+		"sources": [
+			"https://archive.is/2017.06.26-215258/https://eng.forsaetisraduneyti.is/state-symbols/icelandic-national-flag/proportion/",
+			"https://archive.is/2017.07.01-005022/http://www.althingi.is/lagas/146a/2016032.html#selection-197.20-197.28"
+		],
+		"ts-using": "2021-04-19T14:50:13Z"
 	},
 	"it": {
 		"wiki-source": "File:<TODO>",
