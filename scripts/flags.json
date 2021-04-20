@@ -558,8 +558,11 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"io": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_the_Commissioner_of_the_British_Indian_Ocean_Territory.svg",
+		"sources": [
+			"https://commons.wikimedia.org/wiki/File:Flag_of_British_Indian_Ocean_Territory_(8166415481).jpg"
+		],
+		"ts-using": "2020-10-08T15:05:39Z"
 	},
 	"iq": {
 		"wiki-source": "File:Flag_of_Iraq.svg",
@@ -703,8 +706,12 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"ma": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Morocco.svg",
+		"sources": [
+			"https://www.sgg.gov.ma/BO/AR/2005/BO_5378_ar.pdf",
+			"https://www.sgg.gov.ma/BO/FR/2005/bo_5378_fr.pdf"
+		],
+		"ts-using": "2021-01-08T12:16:38Z"
 	},
 	"mc": {
 		"wiki-source": "File:<TODO>",
@@ -1172,7 +1179,10 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"tr": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Turkey.svg",
+		"sources": [
+			"https://web.archive.org/web/20130420210812/https://www.ttk.org.tr/index.php?Page=Sayfa&No=81"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"tt": {
