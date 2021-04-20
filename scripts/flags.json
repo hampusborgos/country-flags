@@ -412,7 +412,10 @@
 		"ts-using": "2020-11-21T19:26:05Z"
 	},
 	"ge": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Georgia.svg",
+		"sources": [
+			"https://upload.wikimedia.org/wikipedia/commons/2/28/Brdzanebuleba_31.pdf"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"gf": {
