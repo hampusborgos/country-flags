@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 72 36">
-<rect width="72" height="36" style="fill:#0073cf"/>
-<rect width="72" height="12" y="12" style="fill:#fff"/>
-<g id="star" transform="translate(36,18) scale(2)" fill="#0073cf">
-<g id="cone">
-<polygon id="triangle" points="0,0 0,1 .5,1" transform="translate(0,-1) rotate(18)"/>
-<use xlink:href="#triangle" transform="scale(-1,1)" id="use12"/>
-</g>
-<use xlink:href="#cone" transform="rotate(72)" id="use14"/>
-<use xlink:href="#cone" transform="rotate(-72)" id="use16"/>
-<use xlink:href="#cone" transform="rotate(144)" id="use18"/>
-<use xlink:href="#cone" transform="rotate(-144)" id="use20"/>
-</g>
-<use xlink:href="#star" transform="translate(10,-3.2)"/>
-<use xlink:href="#star" transform="translate(10,2.8)"/>
-<use xlink:href="#star" transform="translate(-10,-3.2)"/>
-<use xlink:href="#star" transform="translate(-10,2.8)"/>
-</svg>
+<svg viewBox="0 0 1260 630" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M1260 0H0v630h1260z" fill="#0d3b99"/><path d="M1260 210H0v210h1260z" fill="#fff"/><path id="a" d="M630 280l20.572 63.315-53.859-39.131h66.573l-53.859 39.131z" fill="#0d3b99"/><g id="b"><use transform="translate(-175 -52.465)" xlink:href="#a"/><use transform="translate(-175 52.534)" xlink:href="#a"/></g><use transform="translate(350)" xlink:href="#b"/></svg>

@@ -495,8 +495,11 @@
 		"ts-using": "2020-09-17 12:59:02 -0400"
 	},
 	"hn": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Honduras.svg",
+		"sources": [
+			"https://web.archive.org/web/20180317093444/https://www.presidencia.gob.hn/index.php/honduras/bandera-nacional"
+		],
+		"ts-using": "2021-02-25T16:52:59Z"
 	},
 	"hr": {
 		"wiki-source": "File:Flag_of_Croatia.svg",
