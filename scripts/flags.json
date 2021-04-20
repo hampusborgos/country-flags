@@ -535,8 +535,11 @@
 		"ts-using": "2020-09-16 11:40:32 -0400"
 	},
 	"im": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_the_Isle_of_Mann.svg",
+		"sources": [
+			"https://web.archive.org/web/20120309080605/https://www.gov.im/Isleofman/facts.xml"
+		],
+		"ts-using": "2018-12-10T14:06:41Z"
 	},
 	"in": {
 		"wiki-source": "File:Flag_of_India.svg",
