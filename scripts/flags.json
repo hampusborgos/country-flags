@@ -358,8 +358,11 @@
 		"ts-using": "2021-03-30T19:02:13Z"
 	},
 	"fk": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2020-09-17 14:30:28 -0400"
+		"wiki-source": "File:Flag_of_the_Falkland_Islands.svg",
+		"sources": [
+			"https://www.falklands.gov.fk/self-governance/the-falkland-islands-government/"
+		],
+		"ts-using": "2020-06-05T21:31:32Z"
 	},
 	"fm": {
 		"wiki-source": "File:<TODO>",
