@@ -746,7 +746,12 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"mh": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_the_Marshall_Islands.svg",
+		"sources": [
+			"https://www.paclii.org/mh/legis/consol_act/ofotmia1979292.pdf",
+			"http://www.paclii.org/cgi-bin/sinodisp/mh/legis/consol_act/ofotmia1979292/ofotmia1979292.html?stem=&synonyms=#disp16",
+			"https://web.archive.org/web/20130805234813/http://rmigovernment.org/about_your_government.jsp?docid=3"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"mk": {
