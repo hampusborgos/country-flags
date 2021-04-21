@@ -26,6 +26,9 @@
 	},
 	"ai": {
 		"wiki-source": "File:Flag_of_Anguilla.svg",
+		"sources": [
+			"https://flagmakers.co.uk/flag-history/anguilla/"
+		],
 		"ts-using": "2020-09-17 11:26:24 -0400"
 	},
 	"al": {
@@ -714,8 +717,11 @@
 		"ts-using": "2021-01-08T12:16:38Z"
 	},
 	"mc": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Monaco.svg",
+		"sources": [
+			"https://www.gouv.mc/Gouvernement-et-Institutions/Histoire-et-Patrimoine#Symboles_108595"
+		],
+		"ts-using": "2020-01-11T19:58:36Z"
 	},
 	"md": {
 		"wiki-source": "File:Flag_of_Moldova.svg",
