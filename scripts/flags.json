@@ -622,8 +622,11 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"kg": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2020-12-17 06:06:35 -0500"
+		"wiki-source": "File:Flag_of_Kyrgyzstan.svg",
+		"sources": [
+			"https://grs.gov.kg/uploads/files/205/205.11.04.17.ru.pdf"
+		],
+		"ts-using": "2021-04-23T15:13:25Z"
 	},
 	"kh": {
 		"wiki-source": "File:<TODO>",
