@@ -752,7 +752,7 @@
 			"http://www.paclii.org/cgi-bin/sinodisp/mh/legis/consol_act/ofotmia1979292/ofotmia1979292.html?stem=&synonyms=#disp16",
 			"https://web.archive.org/web/20130805234813/http://rmigovernment.org/about_your_government.jsp?docid=3"
 		],
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"ts-using": "2021-04-21T15:22:11Z"
 	},
 	"mk": {
 		"wiki-source": "File:<TODO>",
@@ -1138,8 +1138,11 @@
 		"ts-using": "2021-03-31T13:59:11Z"
 	},
 	"td": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Chad.svg",
+		"sources": [
+			"https://www.fotw.info/flags/td.html"
+		],
+		"ts-using": "2021-04-23T12:03:22Z"
 	},
 	"tf": {
 		"wiki-source": "File:Flag_of_the_French_Southern_and_Antarctic_Lands.svg",
@@ -1152,6 +1155,8 @@
 	"th": {
 		"wiki-source": "File:Flag_of_Thailand.svg",
 		"sources": [
+			"http://www.ratchakitcha.soc.go.th/DATA/PDF/2522/A/067/1.PDF#page=2",
+			"http://www.ratchakitcha.soc.go.th/DATA/PDF/2560/E/245/1.PDF",
 			"https://www.nstda.or.th/th/nstda-knowledge/11557-thaiflag-color"
 		],
 		"ts-using": "2018-02-15T10:46:33Z"
