@@ -657,8 +657,13 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"ky": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2020-09-17 14:30:28 -0400"
+		"wiki-source": "File:Flag_of_the_Cayman_Islands.svg",
+		"sources": [
+			"https://www.gov.ky/about-us/our-islands/national-symbols",
+			"https://web.archive.org/web/20170814034523/https://www.gov.ky/portal/page/portal/cighome/cayman/islands/nationalsymbols/flag",
+			"https://www.crwflags.com/fotw/flags/ky.html"
+		],
+		"ts-using": "2021-04-23T15:59:22Z"
 	},
 	"kz": {
 		"wiki-source": "File:<TODO>",
