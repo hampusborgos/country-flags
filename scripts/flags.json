@@ -705,8 +705,11 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"lu": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2020-06-30 18:52:59 +0530"
+		"wiki-source": "File:Flag_of_Luxembourg.svg",
+		"sources": [
+			"http://data.legilux.public.lu/eli/etat/leg/memorial/1993/73/fr/pdf"
+		],
+		"ts-using": "2021-04-26T15:10:13Z"
 	},
 	"lv": {
 		"wiki-source": "File:<TODO>",
