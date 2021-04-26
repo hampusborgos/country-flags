@@ -712,8 +712,14 @@
 		"ts-using": "2021-04-26T15:10:13Z"
 	},
 	"lv": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Latvia.svg",
+		"sources": [
+			"https://likumi.lv/doc.php?id=200642&from=off",
+			"https://likumi.lv/ta/id/209092-latvijas-valsts-karoga-likuma-piemerosanas-noteikumi",
+			"https://likumi.lv/ta/en/en/id/200642-law-on-the-national-flag-of-latvia",
+			"https://likumi.lv/ta/en/en/id/209092-procedures-for-the-application-of-the-law-on-the-national-flag-of-latvia"
+		],
+		"ts-using": "2021-04-26T15:23:14Z"
 	},
 	"ly": {
 		"wiki-source": "File:<TODO>",
