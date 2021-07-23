@@ -4,7 +4,8 @@
   "description": "SVG and PNG renders of all countries' flags.",
   "scripts": {
     "build-pngs": "node scripts/build-pngs.js",
-    "build-100-250-1000-pngs": "node scripts/build-pngs.js 100: && node scripts/build-pngs.js 250: && node scripts/build-pngs.js 1000:"
+    "build-100-250-1000-pngs": "node scripts/build-pngs.js 100: && node scripts/build-pngs.js 250: && node scripts/build-pngs.js 1000:",
+    "build-png-map": "NODE_PATH=$(npm root -g) node scripts/build-png-map.js"
   },
   "repository": {
     "type": "git",

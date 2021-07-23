@@ -46,6 +46,27 @@ You can run the node script 'build-pngs', you must first install the modules `sv
 Replace `1000:` with whatever width you want (note the `:`), or type `:200` to get
 PNGs with a height of 200px.
 
+### Create big PNG with JSON and CSS definitions
+
+You can create one big PNG with all maps with given dimension and with generated description in JSON and CSS.
+To do so, you have to install `canvas` module:
+
+    npm install -g canvas
+    npm run build-png-map -- 1000:
+
+To run this command you have to have generated PNG flags. You can download them or generate them with command:
+
+    npm run build-pngs -- 1000:
+
+Then you can use it in HTML code:
+
+    <html>
+    <head>
+        <link rel="stylesheet" href="all.css"/>
+    </head>
+        <div class="flags flag-pl"/>
+    </html>
+
 ### Arbitrary Width Manually
 
 If you cannot run the node script above, you can do the same steps manually.
