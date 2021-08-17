@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 225 150">
-<rect width="225" height="150" fill="#f93"/>
-<rect width="225" height="50" y="50" fill="#fff"/>
-<rect width="225" height="50" y="100" fill="#128807"/>
-<g transform="translate(112.5,75)">
-<circle r="20" fill="#008"/>
-<circle r="17.5" fill="#fff"/>
-<circle r="3.5" fill="#008"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 600">
+<rect width="900" height="200" fill="#f93"/>
+<rect width="900" height="200" y="200" fill="#fff"/>
+<rect width="900" height="200" y="400" fill="#128807"/>
+<g transform="translate(450,300)">
+<circle r="92.5" fill="#008"/>
+<circle r="80" fill="#fff"/>
+<circle r="16" fill="#008"/>
 <g id="d">
 <g id="c">
 <g id="b">
 <g id="a">
-<circle r="0.875" fill="#008" transform="rotate(7.5) translate(17.5)"/>
-<path fill="#008" d="M 0,17.5 0.6,7 C 0.6,7 0,2 0,2 0,2 -0.6,7 -0.6,7 L 0,17.5 z"/>
+<circle r="3.5" fill="#008" transform="rotate(7.5) translate(80)"/>
+<path fill="#008" d="M 0,80 3,32 1,15.968719 1,15 -1,15 -1,15.968719 -3,32 L 0,80 z"/>
 </g>
 <use xlink:href="#a" transform="rotate(15)"/>
 </g>
