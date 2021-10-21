@@ -319,7 +319,7 @@
 		"sources": [
 			"https://www.riigiteataja.ee/en/eli/525112020001/consolide"
 		],
-		"ts-using": "2021-07-10T03:17:54Z"
+		"ts-using": "2016-05-08T00:21:43Z"
 	},
 	"eg": {
 		"wiki-source": "File:<TODO>",
@@ -778,8 +778,12 @@
 		"ts-using": "2021-04-21T15:22:11Z"
 	},
 	"mk": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_North_Macedonia.svg",
+		"sources": [
+			"https://www.slvesnik.com.mk/Issues/0124CDEDBD2940C8AB642A152C9FCBEE.pdf",
+			"https://heraldika.org.mk/en/news/konstrukcija-na-znameto-na-republika-makedonija/"
+		],
+		"ts-using": "2021-05-01T02:30:06Z"
 	},
 	"ml": {
 		"wiki-source": "File:<TODO>",
@@ -915,8 +919,8 @@
 		"ts-using": "2020-09-16 11:02:01 -0400"
 	},
 	"om": {
-		"wiki-source": "File:<TODO>",
-		"ts-using": "2018-08-31 08:41:28 +0100"
+		"wiki-source": "File:Flag_of_Oman.svg",
+		"ts-using": "2019-09-10T13:57:21Z"
 	},
 	"pa": {
 		"wiki-source": "File:Flag_of_Panama.svg",
@@ -1217,7 +1221,11 @@
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"to": {
-		"wiki-source": "File:<TODO>",
+		"wiki-source": "File:Flag_of_Tonga.svg",
+		"sources": [
+			"https://web.archive.org/web/20040201020039/http://www.vanuatu.usp.ac.fj/paclawmat/Tonga_legislation/Consolidation_1988/Tonga_Royal_Arms.html",
+			"https://www.fotw.info/flags/to.html"
+		],
 		"ts-using": "2018-08-31 08:41:28 +0100"
 	},
 	"tr": {
