@@ -31,6 +31,12 @@ You can also install this as a NPM module:
 
     npm install --save svg-country-flags
 
+You can also install it as a [Hugo Module](https://gohugo.io/hugo-modules) with:
+
+    hugo mod get github.com/privatemaker/country-flags
+
+Add adding the proper YAML to the `hugo.yaml` config file.
+
 
 ## Exporting to pngs
 
