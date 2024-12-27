@@ -1,0 +1,16 @@
+disableKinds:
+  - sitemap
+  - RSS
+  - taxonomy
+  - term
+
+module:
+  mounts:
+    - source: png100px
+      target: static/flags/100px
+    - source: png250px
+      target: static/flags/250px
+    - source: png1000px
+      target: static/flags/1000px
+    - source: svg
+      target: static/flags/svg
