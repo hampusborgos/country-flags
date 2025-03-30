@@ -1,3 +1,9 @@
 .DS_Store
 npm-debug.log
 .vscode
+
+node_modules
+package-lock.json
+
+# output folders
+png-*/

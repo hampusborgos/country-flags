@@ -1,15 +1,16 @@
-var process = require('process')
-var exec = require('child_process').exec
-var fs = require('fs')
+import process  from 'process';
+import path from 'path';
+import fs from 'fs';
+import sharp from 'sharp';
 
-var help_message = "You must pass one argument to build-pngs. It should be target dimension in the format `200:` for width 200px, or `:200` for height 200px."
-var svg_directory = 'svg/'
+const help_message = "You must pass one argument to build-pngs. It should be target dimension in the format `200:` for width 200px, or `:200` for height 200px."
+const svgSourceDirectory = 'svg'
 
 // Check arguments
 function get_output_directory() {
     // Replace : with x, if two dimensions are specified
     var dim = process.argv[2].split(':').filter(x => x.length > 0)
-    var dir = 'png' + (dim.length > 1 ? dim.join('x') : dim) + 'px'
+    var dir = 'png-' + (dim.length > 1 ? dim.join('x') : dim) + 'px'
 
     return dir
 }
@@ -18,10 +19,10 @@ function get_output_dimensions() {
     return process.argv[2]
 }
 
-function check_arguments(callback) {
+function check_arguments() {
     if (process.argv.length != 3) {
         console.log(help_message)
-        process.exit(1)
+        return false;
     }
 
     var dimensions = process.argv[2]
@@ -33,46 +34,26 @@ function check_arguments(callback) {
             fs.mkdirSync(output_folder)
         }
 
-        callback()
+        return true;
     }
-    else {
-        console.log(help_message)
-        process.exit(1)
-    }
+
+    console.log(help_message)
+
+    return false;
 }
 
-function check_for_svgexport(callback) {
-    // Check for presence of imagemin-cli and svgexport
-    console.log("Checking if `svgexport` is available...")
-    exec('svgexport', function(error, stdout, stderr) {
-        if (stdout.indexOf("Usage: svgexport") !== -1) {
-            callback()
-        }
-        else {
-            console.log("`svgexport` is not installed.")
-            console.log("Please run: npm install -g svgexport")
-            process.exit(1)
-        }
-    })
-}
+function check_for_sharp() {
+    // check for presence of sharp
+    if (sharp) return true;
 
-function check_for_imagemin(callback) {
-    // Check for presence of imagemin-cli and svgexport
-    console.log("Checking if `imagemin-cli` is available...")
-    exec("imagemin --version", function(error, stdout, stderr) {
-        if (!error) {
-            callback()
-        }
-        else {
-            console.log("`imagemin-cli` is not installed.")
-            console.log("Please run: npm install -g imagemin-cli")
-            process.exit(1)
-        }
-    })
+    console.log("`sharp` is not installed.")
+    console.log("Please run: npm install sharp")
+
+    return false;
 }
 
 function get_all_svgs(callback) {
-    fs.readdir(svg_directory, function(err, items) {
+    fs.readdir(svgSourceDirectory, function(err, items) {
         if (err) {
             console.log("Could not list *.svg files. You probably ran this command from the wrong working directory.")
             console.log(err)
@@ -84,30 +65,26 @@ function get_all_svgs(callback) {
     }, (error) => {})
 }
 
-function convert_and_compress_svg(path_to_svg, callback) {
-    var path_to_tmp_png = path_to_svg.substring(0, path_to_svg.length - 4) + '.png'
-    var svgexport_command = "svgexport " + path_to_svg + " " + path_to_tmp_png + " pad " + get_output_dimensions()
-    console.log(svgexport_command)
-    exec(svgexport_command, (error, stdout, stderr) => {
-        if (error) {
-            console.log("Failed to convert SVG: " + path_to_svg)
-            process.exit(1)
-        }
+async function convert_and_compress_svg({ sourceSvgPath, svgFileName, callback }) {
+  // export the SVG file to PNG file
+  const outputDirectory = get_output_directory();
+  const [imageFileName] = svgFileName.split('.');
 
-        var image_min_command = "imagemin " + path_to_tmp_png + " --out-dir=" + get_output_directory()
-        console.log(image_min_command)
-        exec(image_min_command, (error, stdout, stderr) => {
-            // Always remove temp file
-            fs.unlink(path_to_tmp_png, (error) => {})
+  const outputImagePath = path.join(outputDirectory, `${imageFileName}.png`)
 
-            if (error) {
-                console.log("Failed to convert SVG: " + path_to_svg)
-                process.exit(1)
-            }
-
-            callback()
-        })
-    })
+  try {
+    console.log(`Exporting - ${sourceSvgPath} to ${outputImagePath}`)
+    // export svg to png
+    await sharp(sourceSvgPath, { limitInputPixels: false })
+      .resize({ width: parseInt(get_output_dimensions()) })
+      .png({ compressionLevel: 9, adaptiveFiltering: true, force: true })
+      .toFile(outputImagePath);
+  } catch (error) {
+    console.log("Failed to convert SVG: " + sourceSvgPath)
+    console.log('Error -', error)
+  } finally {
+    callback();
+  }
 }
 
 function convert_all_files(svgs, callback) {
@@ -115,7 +92,11 @@ function convert_all_files(svgs, callback) {
 
     function do_next_file() {
         console.log("Converting [" + (i+1) + "/" + svgs.length + "] " + svgs[i])
-        convert_and_compress_svg(svg_directory + svgs[i], do_next_file)
+        convert_and_compress_svg({
+          sourceSvgPath: path.join(svgSourceDirectory, svgs[i]),
+          svgFileName: svgs[i],
+          callback: do_next_file
+        })
 
         ++i
         if (i >= svgs.length) {
@@ -128,11 +109,11 @@ function convert_all_files(svgs, callback) {
 }
 
 // Run the program
-check_arguments(() =>
-    check_for_imagemin(() =>
-    check_for_svgexport(() =>
-    get_all_svgs((svgs) => convert_all_files(svgs, () => {
-        console.log("All SVGs converted to PNG!")
-        process.exit(0)
-    })
-))))
+(() => {
+  if (!check_arguments() || !check_for_sharp()) return;
+  
+  get_all_svgs((svgs) => convert_all_files(svgs, () => {
+    console.log("All SVGs converted to PNG!")
+    process.exit(0)
+  }))
+})();
