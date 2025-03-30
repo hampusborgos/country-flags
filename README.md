@@ -38,9 +38,9 @@ In addition to the the SVG "sources" for all flags, we've also provided PNG expo
 
 ### Arbitrary Width
 
-You can run the node script 'build-pngs', you must first install the modules `svgexport` and `imagemin-cli`:
+You can run the node script 'build-pngs' after installing required dependency(`sharp`):
 
-    npm install -g svgexport imagemin-cli
+    npm install
     npm run build-pngs -- 1000:
 
 Replace `1000:` with whatever width you want (note the `:`), or type `:200` to get
@@ -48,7 +48,7 @@ PNGs with a height of 200px.
 
 ### Arbitrary Width Manually
 
-If you cannot run the node script above, you can do the same steps manually.
+If you cannot run the node script above, you can do the same steps manually if you have `svgexport` and `imagemin-cli` NPM packages globally installed in your system.
 
 Use a combination of `svgexport` and `imagemin-cli` from NPM to get that.
 `imagemin` is very important because `svgexport` produces uncompressed PNGs which are several MB each.
