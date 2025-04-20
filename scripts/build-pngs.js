@@ -1,5 +1,6 @@
 var process = require('process')
 var exec = require('child_process').exec
+var execSync = require('child_process').execSync
 var fs = require('fs')
 
 var help_message = "You must pass one argument to build-pngs. It should be target dimension in the format `200:` for width 200px, or `:200` for height 200px."
@@ -28,7 +29,7 @@ function check_arguments(callback) {
     if (/^[0-9]*:[0-9]*$/.test(dimensions) && dimensions.length > 2) {
         var output_folder = get_output_directory()
         console.log("Output folder: " + output_folder)
-        
+
         if (!fs.existsSync(output_folder)){
             fs.mkdirSync(output_folder)
         }
@@ -84,47 +85,40 @@ function get_all_svgs(callback) {
     }, (error) => {})
 }
 
-function convert_and_compress_svg(path_to_svg, callback) {
+function convert_and_compress_svg(path_to_svg) {
     var path_to_tmp_png = path_to_svg.substring(0, path_to_svg.length - 4) + '.png'
+
     var svgexport_command = "svgexport " + path_to_svg + " " + path_to_tmp_png + " pad " + get_output_dimensions()
     console.log(svgexport_command)
-    exec(svgexport_command, (error, stdout, stderr) => {
+    execSync(svgexport_command, (error, stdout, stderr) => {
         if (error) {
             console.log("Failed to convert SVG: " + path_to_svg)
             process.exit(1)
         }
-
-        var image_min_command = "imagemin " + path_to_tmp_png + " --out-dir=" + get_output_directory()
-        console.log(image_min_command)
-        exec(image_min_command, (error, stdout, stderr) => {
-            // Always remove temp file
-            fs.unlink(path_to_tmp_png, (error) => {})
-
-            if (error) {
-                console.log("Failed to convert SVG: " + path_to_svg)
-                process.exit(1)
-            }
-
-            callback()
-        })
     })
+
+    var image_min_command = "imagemin " + path_to_tmp_png + " --out-dir=" + get_output_directory()
+    console.log(image_min_command)
+    execSync(image_min_command, (error, stdout, stderr) => {
+        if (error) {
+            console.log("Failed to convert SVG: " + path_to_svg)
+            process.exit(1)
+        }
+    })
+
+    // Always remove temp file
+    fs.unlink(path_to_tmp_png, (error) => {
+        console.log(error)
+     })
 }
 
 function convert_all_files(svgs, callback) {
-    var i = 0
-
-    function do_next_file() {
-        console.log("Converting [" + (i+1) + "/" + svgs.length + "] " + svgs[i])
-        convert_and_compress_svg(svg_directory + svgs[i], do_next_file)
-
-        ++i
-        if (i >= svgs.length) {
-            callback()
-            return
-        }
+    for (let i = 0; i < svgs.length; i++) {
+        console.log("Converting [" + (i + 1) + "/" + svgs.length + "] " + svgs[i])
+        convert_and_compress_svg(svg_directory + svgs[i])
     }
 
-    do_next_file()
+    callback()
 }
 
 // Run the program
